@@ -181,11 +181,11 @@ document.addEventListener('DOMContentLoaded', function() {
             const pJS = pJSDom[0].pJS;
             if (pJS) {
                 if (isMobile) {
-                    pJS.particles.number.value = 35;
-                    pJS.particles.move.speed = 1.2;
-                    pJS.particles.size.value = 3;
-                    pJS.particles.line_linked.distance = 100;
-                    pJS.particles.line_linked.opacity = 0.2;
+                    pJS.particles.number.value = 60;
+                    pJS.particles.move.speed = 1.8;
+                    pJS.particles.size.value = 4;
+                    pJS.particles.line_linked.distance = 150;
+                    pJS.particles.line_linked.opacity = 0.8;
                 } else if (isTablet) {
                     pJS.particles.number.value = 50;
                     pJS.particles.move.speed = 1.5;
